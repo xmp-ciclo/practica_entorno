@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ejercicio1 {
 		
 	// Constantes
-	private static final int EDAD_MAXIMA = 100;
+	private static final int EDAD_MAXIMA = 100; //Cambio del alumno 2 (Xavier Machio Pradas) 
 	private static final int LIMITE_NINNO = 12;
 	private static final int LIMITE_ADOLESCENTE = 17;
 	private static final int LIMITE_JOVEN = 29;
@@ -15,16 +15,16 @@ public class Ejercicio1 {
 		int edad;
 		
 		//Inicio
-		System.out.println("Introduce la edad, m·ximo " + EDAD_MAXIMA);
+		System.out.println("Introduce la edad, m√°ximo " + EDAD_MAXIMA);
 		edad = Integer.parseInt(teclado.nextLine()); // leer numero
 		
 		
 		if (edad < 0 || edad >= EDAD_MAXIMA){
-			System.out.println("Edad incorrecta, no est· en el rango indicado");
+			System.out.println("Edad incorrecta, no est√° en el rango indicado");
 		}
 		else{
 			if (edad <= LIMITE_NINNO){
-				System.out.println("Es un niÒo");
+				System.out.println("Es un ni√±o");
 			}
 			else{
 				if (edad <= LIMITE_ADOLESCENTE){
